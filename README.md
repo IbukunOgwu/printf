@@ -50,21 +50,6 @@ or
 
  An  optional  precision,  in  the  form  of a period ('.')  followed by an optional decimal digit string.  A negative precision is taken  as  if  the precision were omitted.  This gives the minimum number of digits to appear for d, i, o, u, x, and X conversions,  or the  maximum  number of characters to be printed from a string for s and S conversions. A character * can be used instead of a  decimal string. In this case, an argument passed to the function will be taken as the precision value.
 
-    printf("%.3d", num);
-
-  or
-
-    printf("%.*d", precision, num);
-
-**The length modifiers**
-
-|Modifier| Description |
-|--|--|
-|**l**| An integer conversion to a **long int** or **unsigned long int** argument.  |
-|**h**| An integer conversion to a **short int** or **unsigned short int** argument. |
-
-**The conversion specifier**
-
 |Specifier| Description |
 |--|--|
 |**d, i**|The argument **int** is converted to a signed decimal notation. If precision is present,it gives the minimum number of digits that must appear; if the converted value requires fewer digits, then it is padded with zeros on the left. Default precision is 1.|
@@ -79,5 +64,5 @@ or
 |**R**|The argument received is expected to be a pointer type char * to an array of characters.  Characters from this array  are  encoded  to  ROT13  and printed in order up to (but not including a null byte  ('\0').  |
 
 ## **Author**
-Yonas Leykun
+David & Ibukun
 
