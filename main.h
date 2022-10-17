@@ -16,6 +16,7 @@
 #define CONVERT_UNSIGNED	2
 
 /**
+ * struct intface - interface for printing
  * struct parameters - parameters struct
  * @unsign: flag if unsigned value
  * @plus_flag: on if plus_flag specified
@@ -29,8 +30,25 @@
  * @l_modifier: on if l_modifier is specified
  */
 
+typedef struct intface
+{
+char id;
+int (*fn)(va_list);
+} interface;
+
+int _printf(const char *format, ...);
+
+int _print_char(va_list ls);
+
+int _print_mod(va_list ls);
+
+int _print_string(va_list ls);
+
+int _print_int(va_list ls);
+
 typedef struct parameters
 {
+
 unsigned int unsign		: 1;
 unsigned int plus_flag		: 1;
 unsigned int space_flag		: 1;
