@@ -2,4 +2,4 @@ First collabration Printf project: The objective of the printf project is to lea
 
 Repository Contents The repository contains the following files
 
-FILE Description _printf.c our take on printf main.h contains file diclarations get_functions.c choose which function to use based on a specific format modifier functions.c contains the functions that handle how to print different types handlers.c handels some modifier num_conversion.c converts numbers print_p.c prints an address useful_func.c some useful functions write_to_buffer.c functions that write to buffer flags_functions.c flags convert_strings.c convert to root13 align_handler.c corrects alligment
+FILE Description _printf.c our take on printf main.h contains file diclarations get_functions.c choose which function to use based on a specific format modifier functions.c contains the functions that handle how to print different types handlers.c handels some modifier num_conversion.c converts numbers print_p.c prints an address useful_func.c some useful functions write_to_buffer.c functions that write to buffer flags_functions.c flags convert_strings.c
